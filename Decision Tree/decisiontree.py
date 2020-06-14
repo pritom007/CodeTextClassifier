@@ -13,7 +13,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 # Data processing
 
-file_dir = "C:\\Pritom Lab\\Sjtu\\2nd Semester\\Web search and mining\\"
+file_dir = "...\Web search and mining\"
 df = pd.read_csv(file_dir + 'code_text_title_tag.csv', encoding="ISO-8859-1")
 df = df[pd.notnull(df['tags'])]
 print("First 10 data")
